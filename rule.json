@@ -1,6 +1,10 @@
 [
   {
-    "key": "000000",
-    "value": "MOONVisualBlackFFFFFF"
+    "name": "Color",
+    "template": "color.text",
+    "rules":
+      {
+        "${REPLACE01}": "abcd"
+      }
   }
 ]

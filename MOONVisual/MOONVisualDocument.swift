@@ -21,7 +21,7 @@ struct MOONVisualDocument: FileDocument {
         self.text = text
     }
 
-    static var readableContentTypes: [UTType] { [.exampleText, .json] }
+    static var readableContentTypes: [UTType] { [.exampleText, .json, .text] }
     
     init(configuration: ReadConfiguration) throws {
         guard let data = configuration.file.regularFileContents,

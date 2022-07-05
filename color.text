@@ -1,0 +1,4 @@
+@objc(MOONVisualColor${REPLACE01})
+class Color${REPLACE01} {
+  return ${REPLACE01}
+}
